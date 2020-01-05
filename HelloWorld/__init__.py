@@ -7,5 +7,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
     
-    return func.HttpResponse({"value": "hello world"})
+    return func.HttpResponse('{"value": "hello world"}')
     
